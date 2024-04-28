@@ -1,0 +1,34 @@
+    1  git config --global user.name "Jan1620"
+    2  git config --global user.email "yevheniia.241123@gmail.com"
+    3  git clone HW_10
+    4  git clone https://github.com/Jan1620/HW_10.git
+    5  cd HW_10
+    6  touch text_ignore.txt
+    7  ls -l
+    8  git status
+    9  git add
+   10  git add text.ignore.txt
+   11  cd /c/Users/A1/Desktop/HW
+   12  cd HW_10
+   13  git status 
+   14  git add text_ignore.txt
+   15  git commit -m "first commit"
+   16  touch main_test.txt
+   17  ls -l
+   18  git add main_test.txt
+   19  git commit -m "second commit"
+   20  git branch develop
+   21  git checkout develop
+   22  touch develop_test.txt
+   23  ls -l
+   24  git add develop_test.txt
+   25  git commit -m "third commit"
+   26  vin develop_test.txt
+   27  vim develop_test.txt
+   28  git status
+   29  git add develop_test.txt
+   30  git commit -m "fourth commit"
+   31  git checkout main
+   32  git merge develop
+   33  git log
+   34  history > command_list.csv
